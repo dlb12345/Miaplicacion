@@ -1,0 +1,96 @@
+<RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@drawable/fondo">
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/whisky"
+            android:id="@+id/btwhisky"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="28dp"/>
+
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/btron"
+            android:background="@drawable/ron"
+            android:layout_toRightOf="@+id/btwhisky"
+            android:layout_marginLeft="28dp"
+            android:layout_alignBottom="@id/btwhisky"/>
+
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/pisco"
+            android:id="@+id/btpisco"
+            android:layout_below="@+id/btwhisky"
+            android:layout_marginTop="18dp"
+            android:layout_alignLeft="@+id/btwhisky"/>
+
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/btvino"
+            android:background="@drawable/vino"
+            android:layout_toRightOf="@+id/btpisco"
+            android:layout_alignBottom="@+id/btpisco"
+            android:layout_marginLeft="28dp"/>
+
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/btcerveza"
+            android:background="@drawable/cerveza"
+            android:layout_below="@+id/btpisco"
+            android:layout_alignLeft="@+id/btpisco"
+            android:layout_marginTop="18dp"/>
+
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/btcigarros"
+            android:background="@drawable/cigarros"
+            android:layout_toRightOf="@+id/btcerveza"
+            android:layout_alignBottom="@+id/btcerveza"
+            android:layout_marginLeft="28dp"/>
+
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/varios"
+            android:id="@+id/btotros"
+            android:layout_below="@+id/btcerveza"
+            android:layout_alignLeft="@+id/btcerveza"
+            android:layout_marginTop="18dp"/>
+
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/btgaseosa"
+            android:background="@drawable/gaseosa"
+            android:layout_toRightOf="@+id/btotros"
+            android:layout_alignBottom="@+id/btotros"
+            android:layout_marginLeft="28dp"/>
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

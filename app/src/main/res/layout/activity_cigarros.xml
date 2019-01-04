@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".cigarros">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" tools:layout_editor_absoluteY="124dp" tools:layout_editor_absoluteX="0dp"
+            tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+                android:layout_width="397dp"
+                android:layout_height="125dp"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true">
+
+            <TextView
+                    android:layout_width="139dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/tvdeslsx10"
+                    android:text="Cigarros Lucky Strike X 10 uni"
+                    android:layout_toRightOf="@+id/ivluckyx10"
+                    android:textSize="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S/"
+                    android:textSize="18dp"
+                    android:layout_toLeftOf="@+id/tvprecio"
+                    android:layout_alignTop="@+id/tvprecio"
+                    android:layout_marginRight="15dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvprecio"
+                    android:text="11.00"
+                    android:textSize="18dp"
+                    android:layout_above="@+id/tvcontar" android:layout_marginBottom="-2dp"
+                    android:layout_alignStart="@+id/tvcontar" android:layout_marginStart="-14dp"
+                    android:layout_alignLeft="@+id/tvcontar" android:layout_marginLeft="-14dp"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="28dp"
+                    android:id="@+id/tvcontar"
+                    android:layout_toRightOf="@+id/btrestar" android:layout_centerVertical="true"
+                    android:layout_marginLeft="13dp"/>
+
+            <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:background="@drawable/mas"
+                    android:id="@+id/btsumar"
+                    android:textSize="22dp"
+                    android:layout_toRightOf="@+id/tvcontar" android:layout_marginLeft="13dp"
+                    android:layout_alignBottom="@+id/tvcontar"/>
+
+
+            <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:text="-"
+                    android:background="@drawable/menos"
+                    android:id="@+id/btrestar"
+                    android:textSize="22dp"
+                    android:layout_toRightOf="@+id/tvdeslsx10"
+                    android:layout_centerVertical="true" android:layout_marginLeft="4dp"/>
+
+            <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/ivluckyx10"
+                    android:background="@drawable/luckyx10"
+                    android:layout_alignParentBottom="true" android:layout_marginBottom="5dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            <View android:layout_width="wrap_content"
+                  android:layout_height="1dp"
+                  android:background="#D8D8D8"/>
+
+        </LinearLayout>
+        <RelativeLayout
+                android:layout_width="397dp"
+                android:layout_height="125dp"
+                android:orientation="vertical"
+        >
+
+            <TextView
+                    android:layout_width="139dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/tvdeslsx101"
+                    android:text="Cigarros Lucky Strike Indigo    X 10 uni"
+                    android:layout_toRightOf="@+id/ivluckyx101"
+                    android:textSize="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S/"
+                    android:textSize="18dp"
+                    android:layout_toRightOf="@+id/tvprecio1"
+                    android:layout_alignTop="@+id/tvprecio1"
+                    android:layout_marginLeft="-14dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvprecio1"
+                    android:text="11.00"
+                    android:textSize="18dp"
+                    android:layout_above="@+id/tvcontar1"
+                    android:layout_marginBottom="4dp"
+                    android:layout_alignEnd="@+id/btrestar1"
+                    android:layout_marginEnd="-49dp"
+                    android:layout_alignRight="@+id/btrestar1"
+                    android:layout_marginRight="-49dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="28dp"
+                    android:id="@+id/tvcontar1"
+                    android:layout_toRightOf="@+id/btrestar1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13dp"/>
+
+            <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:background="@drawable/mas"
+                    android:id="@+id/btsumar1"
+                    android:textSize="22dp"
+                    android:layout_toRightOf="@+id/tvcontar1"
+                    android:layout_marginLeft="13dp"
+                    android:layout_alignBottom="@+id/tvcontar1"/>
+
+
+            <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:text="-"
+                    android:background="@drawable/menos"
+                    android:id="@+id/btrestar1"
+                    android:textSize="22dp"
+                    android:layout_toRightOf="@+id/tvdeslsx101"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"/>
+
+            <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/ivluckyx101"
+                    android:background="@drawable/luckyindigox10"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="5dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            <View android:layout_width="wrap_content"
+                  android:layout_height="1dp"
+                  android:background="#D8D8D8"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+                android:layout_width="397dp"
+                android:layout_height="125dp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="139dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/tvdeslsx102"
+                    android:text="Cigarros Hamilton           X 10 uni"
+                    android:layout_toRightOf="@+id/ivluckyx102"
+                    android:textSize="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S/"
+                android:textSize="18dp"
+                android:layout_toRightOf="@+id/tvprecio2"
+                android:layout_alignTop="@+id/tvprecio2"
+                android:layout_marginLeft="-14dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvprecio2"
+                android:text="11.00"
+                android:textSize="18dp"
+                android:layout_above="@+id/tvcontar2"
+                android:layout_marginBottom="4dp"
+                android:layout_alignEnd="@+id/btrestar2"
+                android:layout_marginEnd="-49dp"
+                android:layout_alignRight="@+id/btrestar2"
+                android:layout_marginRight="-49dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="28dp"
+                android:id="@+id/tvcontar2"
+                android:layout_toRightOf="@+id/btrestar2"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"/>
+
+        <Button
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="+"
+                android:background="@drawable/mas"
+                android:id="@+id/btsumar2"
+                android:textSize="22dp"
+                android:layout_toRightOf="@+id/tvcontar2"
+                android:layout_marginLeft="13dp"
+                android:layout_alignBottom="@+id/tvcontar2"/>
+
+
+        <Button
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="-"
+                android:background="@drawable/menos"
+                android:id="@+id/btrestar2"
+                android:textSize="22dp"
+                android:layout_toRightOf="@+id/tvdeslsx102"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"/>
+
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/ivluckyx102"
+                android:background="@drawable/hamiltonx10"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            <View android:layout_width="wrap_content"
+                  android:layout_height="1dp"
+                  android:background="#D8D8D8"/>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+                android:layout_width="397dp"
+                android:layout_height="125dp"
+                android:orientation="vertical">
+
+        <TextView
+                android:layout_width="139dp"
+                android:layout_height="70dp"
+                android:id="@+id/tvdeslsx103"
+                android:text="Cigarros Hamilton           X 20 uni"
+                android:layout_toRightOf="@+id/ivluckyx103"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="0dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S/"
+                android:textSize="18dp"
+                android:layout_toRightOf="@+id/tvprecio3"
+                android:layout_alignTop="@+id/tvprecio3"
+                android:layout_marginLeft="-14dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvprecio3"
+                android:text="11.00"
+                android:textSize="18dp"
+                android:layout_above="@+id/tvcontar3"
+                android:layout_marginBottom="4dp"
+                android:layout_alignEnd="@+id/btrestar3"
+                android:layout_marginEnd="-49dp"
+                android:layout_alignRight="@+id/btrestar3"
+                android:layout_marginRight="-49dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="28dp"
+                android:id="@+id/tvcontar3"
+                android:layout_toRightOf="@+id/btrestar3"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"/>
+
+        <Button
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="+"
+                android:background="@drawable/mas"
+                android:id="@+id/btsumar3"
+                android:textSize="22dp"
+                android:layout_toRightOf="@+id/tvcontar3"
+                android:layout_marginLeft="13dp"
+                android:layout_alignBottom="@+id/tvcontar3"/>
+
+        <Button
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="-"
+                android:background="@drawable/menos"
+                android:id="@+id/btrestar3"
+                android:textSize="22dp"
+                android:layout_toRightOf="@+id/tvdeslsx103"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"/>
+
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/ivluckyx103"
+                android:background="@drawable/hamiltonx20"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
